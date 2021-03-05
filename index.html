@@ -9,15 +9,63 @@
   </head>
   <body>
     <div class="page_container">
+      <!-- intestazione -->
       <header>
-
+        <h1>Create Your Burger</h1>
       </header>
-
+      <!-- fine intestazione -->
+      <!-- corpo -->
       <main>
-
+        <div class="input_name_burger">
+          <input id="burgerName" type="text" placeholder="Name Your Burger">
+        </div>
+        <h2>Ingredients</h2>
+        <ul>
+          <li>
+            <label for="cheese">Cheese
+              <input id="cheese" class="ingredients" type="checkbox" value="4"> add
+            </label>
+          </li>
+          <li>
+            <label for="tomato">Tomato
+              <input id="tomato" class="ingredients" type="checkbox" value="3"> add
+            </label>
+          </li>
+          <li>
+            <label for="egg">Egg
+              <input id="egg" class="ingredients" type="checkbox" value="6"> add
+            </label>
+          </li>
+          <li>
+            <label for="lettuce">Lettuce
+              <input id="lettuce" class="ingredients" type="checkbox" value="2"> add
+            </label>
+          </li>
+          <li>
+            <label for="mustard">Mustard
+              <input id="mustard" class="ingredients" type="checkbox" value="1"> add
+            </label>
+          </li>
+          <li>
+            <label for="ketchup">Ketchup
+              <input id="ketchup" class="ingredients" type="checkbox" value=""> add
+            </label>
+          </li>
+        </ul>
+        <div class="input_discount">
+          <label for="discount">Discount Coupon</label>
+          <input id="discount" type="text" placeholder="12354ABCDEF">
+        </div>
+        <button id="calculate" type="button">calculate</button>
       </main>
+      <!-- fine corpo -->
+      <!-- piè di pagina -->
+      <footer>
+        <div>Your price</div>
+        <div id="total">$ 50</div>
+      </footer>
+      <!-- fine piè di pagina -->
 
-      <footer></footer>
     </div>
 
     <script src="js/scripts.js" charset="utf-8"></script>
