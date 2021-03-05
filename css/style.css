@@ -61,6 +61,7 @@ ul.ingredients_list {
   width: 45%;
   margin-bottom: 15px;
   font-size: 14px;
+  font-weight: 500;
 }
 
 .ingredients_list li img {
@@ -102,3 +103,14 @@ button#calculate {
   border: none;
 }
 /* fine corpo */
+/* piè di pagina */
+footer {
+  background-color: #d33359;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: bold;
+}
+/* fine piè di pagina */
