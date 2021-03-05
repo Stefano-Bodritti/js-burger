@@ -28,9 +28,12 @@ calculate.addEventListener('click',
 
       // 6. stampo totale
       document.getElementById('total').innerHTML = "$ " + totale.toFixed(2);
+      if (totale > 60) {
+        alert("E trattieniti un po'!");
+      }
 
     } else {
-      alert("Inserisci il nome del panino")
+      alert("Inserisci il nome del panino");
     }
   }
 );

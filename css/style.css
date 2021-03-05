@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mix */
+body {
+  background-color: #fff5e2;
+}
+
+.page_container {
+  max-width: 700px;
+  background-color: white;
+}
+
+/* fine Mix */
+/* intestazione */
+header {
+  background-color: #fdbb40;
+  padding: 40px 30px 25px;
+  position: relative;
+}
+
+header img {
+  height: 160px;
+  position: absolute;
+  top: -15px;
+  right: -50px;
+}
