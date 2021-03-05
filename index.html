@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Js Burger</title>
   </head>
@@ -21,43 +23,55 @@
           <input id="burger_name" type="text" placeholder="Name Your Burger">
         </div>
         <h2>Ingredients</h2>
-        <ul>
+
+        <!-- lista ingredienti -->
+        <ul class="ingredients_list">
           <li>
+            <img src="img/cheese.svg" alt="Formaggio">
             <label for="cheese">Cheese
-              <input id="cheese" class="ingredients" type="checkbox" value="4"> add
+              <input id="cheese" class="ingredients" type="checkbox" value="4"> <span class="add">add</span>
             </label>
           </li>
           <li>
+            <img src="img/tomato.svg" alt="Pomodoro">
             <label for="tomato">Tomato
-              <input id="tomato" class="ingredients" type="checkbox" value="3"> add
+              <input id="tomato" class="ingredients" type="checkbox" value="3"> <span class="add">add</span>
             </label>
           </li>
           <li>
+            <img src="img/fried-egg.svg" alt="Uovo">
             <label for="egg">Egg
-              <input id="egg" class="ingredients" type="checkbox" value="6"> add
+              <input id="egg" class="ingredients" type="checkbox" value="6"> <span class="add">add</span>
             </label>
           </li>
           <li>
+            <img src="img/lettuce.svg" alt="Insalata">
             <label for="lettuce">Lettuce
-              <input id="lettuce" class="ingredients" type="checkbox" value="2"> add
+              <input id="lettuce" class="ingredients" type="checkbox" value="2"> <span class="add">add</span>
             </label>
           </li>
           <li>
+            <img src="img/mustard.svg" alt="Senape">
             <label for="mustard">Mustard
-              <input id="mustard" class="ingredients" type="checkbox" value="1"> add
+              <input id="mustard" class="ingredients" type="checkbox" value="1"> <span class="add">add</span>
             </label>
           </li>
           <li>
+            <img src="img/ketchup.svg" alt="Ketchup">
             <label for="ketchup">Ketchup
-              <input id="ketchup" class="ingredients" type="checkbox" value="1"> add
+              <input id="ketchup" class="ingredients" type="checkbox" value="1"> <span class="add">add</span>
             </label>
           </li>
         </ul>
+        <!-- fine lista ingredienti -->
+
         <div class="input_discount">
           <label for="discount">Discount Coupon</label>
           <input id="discount" type="text" placeholder="12354ABCDEF">
         </div>
-        <button id="calculate" type="button">calculate</button>
+        <div class="btn_container">
+          <button id="calculate" type="button">calculate</button>
+        </div>
       </main>
       <!-- fine corpo -->
       <!-- piè di pagina -->
